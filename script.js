@@ -1,26 +1,37 @@
+const password = "anshum";
+
+function checkPass(){
+  const val = document.getElementById("passInput").value;
+
+  if(val === password){
+    document.getElementById("lockScreen").style.display = "none";
+  }else{
+    document.getElementById("wrong").style.display = "block";
+  }
+}
 const memories = [
 "can i have a lifetime subscription of youu?",
-"you keep me super happy",
-"cutie u are",
-"happy place bro",
+"you keep me super happy thanx man",
+"dil ki baazi maarli 😉",
+"yes better with u",
 "ilyyyyyy",
 "i am glad i get to call u mine",
-"you are the best",
-"loml",
+"chep",
+"bhaibhai",
 "thank you for loving me the way you do",
-"lucky in love",
+"lifetime subscription????",
 "smartyyy",
-"love us",
+"zindagi me wo nhi toh kn hai meri zindagi me",
 "no nazar",
-"my fav person",
-"always choosing you",
-"best decision",
-"thanking my stars tbh",
-"stuck with me",
-"you get me in the best way possible",
-"you will always be my best win",
-"my heart loves yours",
-"happy 5 years to us babe im so so so lucky and v v excited to spend many more with you hehe thank you for loving me the way you do qt"
+"cuties only",
+"ilyyyyyy",
+"thanking my stars",
+"thanking my stars pt two",
+"bhai mera bass chle toh duniya hi dedu terko purii",
+"hands down my best win",
+"stuck w each other ok?",
+"my heart really really loves yours",
+"HAPPY 5 YEARS TO US MY LOVE💕CHEERS TO MANY MORE WITH EACH OTHER💕"
 ];
 
 let current = 0;
